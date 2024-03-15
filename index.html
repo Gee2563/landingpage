@@ -4,58 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page!</title>
+    <link rel="stylesheet" href="style.css">    
 </head>
 <body>
     <header>
         <h4>Header Logo</h4>
-        <ul>
-            <li><a href="link1">Link 1</a></li>
-            <li><a href = "link2">Link 2</a></li>
-            <li><a href="link3>">Link 3</a></li>
+        <ul >
+            <li><a class = "link" href="link1">Link 1</a></li>
+            <li><a class = "link" href = "link2">Link 2</a></li>
+            <li><a class = "link" href="link3>">Link 3</a></li>
         </ul>
     </header>
     <div class="top-container">
         <div class="container-left">
             <h1 id="main-title">This website is awesome</h1> 
-            <p #paragraph1>This website has some subtext that goes here une the main title</p>
-            <button> Sign up </button>
+            <p id= paragraph1>This website has some subtext that goes here une the main title</p>
+            <button id="button"> Sign up </button>
         </div>
         <div class="container-right">
-            <img src="./images/shoppingmall.jpg" width="480" height="160">
+            <img src="./images/shoppingmall.jpg" width="480" height="160" id="image">
         </div>
     </div>
-    <div class="A-mid-container">
+    <div class="mid-container1">
         <h2 id="title2">Some random information</h2> 
-            <div class="container-for-the boxes">
-                <div class=" image + text">
-                    <img src="./images/coffee.jpeg" width="160" height="80">
-                    <p>This is some subtext </p>
-                </div>
-                <div class=" image + text">
-                    <img src="./images/creche.jpeg" width="160" height="80">
-                    <p>This is some subtext </p>
-                </div>
-                <div class=" image + text">
-                    <img src="./images/restaurant.jpg" width="160" height="80">
-                    <p>This is some subtext </p>
-                </div>
-                <div class=" image + text">
-                    <img src="./images/shop.jpeg" width="160" height="80">
-                    <p>This is some subtext </p>
-                </div>      
-            </div>
     </div>
-    <div class="B-mid-container">
-        <p id="inspiring"> Inspiring quote</p>
+    <div class="mid-container2">        
+                <div class="imagetxt">
+                    <img class="image" src="./images/coffee.jpeg" width="200" height="100">
+                    <pclass = txt>This is some subtext </p>
+                </div>
+
+                <div class=" imagetxt">
+                    <img class="image" src="./images/creche.jpeg" width="200" height="100">
+                    <p class = txt>This is some subtext </p>
+                </div>
+                <div class=" imagetxt">
+                    <img class="image" src="./images/restaurant.jpg" width="200" height="100">
+                    <p class = txt>This is some subtext </p>
+                </div>
+                <div class=" imagetxt">
+                    <img class="image" src="./images/shop.jpeg" width="200" height="100">
+                    <p class = txt>This is some subtext and we add more text to ensure we are all in line and looks fine </p>
+                </div>
+    </div>
+
+    <div class="mid-container3">
+        <p id="inspiring">This is an inspiring quote blabalblablbablablbalbablalabdkawdbakjwdbakwdakwjdawkjda,  wldhal wdgaulgdawl iudgagdiauw ldgawigda</p>
         <h5 id="inspiring-signature">Thor, God of Thunder</p>
     </div>
     <div class="bottom-container">
         <div class="box-container">
-            <h4 id="action-title">Call to action! It is time</h4>
-            <p>Sign up for our product by clicking the button</p>
-            <button>
-                <a>sign up</a>
-            </button>
+            <div class="action-container"> 
+                <h4 id="action-title">Call to action! It is time</h4>
+                <p id="action-caption">Sign up for our product by clicking the button</p>
+            </div>
+            <button id="button2">sign up</button>
         </div>
     </div>
     <footer>
